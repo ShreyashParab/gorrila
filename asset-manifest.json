@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.73234a7d.css",
-    "main.js": "/react-gh-pages/static/js/main.f06c4477.js",
-    "static/media/gorrila.png": "/react-gh-pages/static/media/gorrila.1abaf6e190cc1e81e8dd.png",
-    "static/media/Blackbox.png": "/react-gh-pages/static/media/Blackbox.19aba92ef3b433764d66.png",
-    "static/media/Rectangle.png": "/react-gh-pages/static/media/Rectangle.b01b39269192d4343ecd.png",
-    "static/media/Crypto.png": "/react-gh-pages/static/media/Crypto.396c6ccbc2bfffcf05a1.png",
-    "static/media/BlueTimestamp.png": "/react-gh-pages/static/media/BlueTimestamp.84edf4bd5b632b59fada.png",
-    "static/media/Infinity.png": "/react-gh-pages/static/media/Infinity.1fd2cedd45bcba5d1d6d.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.73234a7d.css.map": "/react-gh-pages/static/css/main.73234a7d.css.map",
-    "main.f06c4477.js.map": "/react-gh-pages/static/js/main.f06c4477.js.map"
+    "main.css": "/gorrila/static/css/main.b7104b4c.css",
+    "main.js": "/gorrila/static/js/main.e2610594.js",
+    "static/media/gorrila.png": "/gorrila/static/media/gorrila.1abaf6e190cc1e81e8dd.png",
+    "static/media/Blackbox.png": "/gorrila/static/media/Blackbox.19aba92ef3b433764d66.png",
+    "static/media/Rectangle.png": "/gorrila/static/media/Rectangle.b01b39269192d4343ecd.png",
+    "static/media/Crypto.png": "/gorrila/static/media/Crypto.396c6ccbc2bfffcf05a1.png",
+    "static/media/BlueTimestamp.png": "/gorrila/static/media/BlueTimestamp.84edf4bd5b632b59fada.png",
+    "static/media/Infinity.png": "/gorrila/static/media/Infinity.1fd2cedd45bcba5d1d6d.png",
+    "index.html": "/gorrila/index.html",
+    "main.b7104b4c.css.map": "/gorrila/static/css/main.b7104b4c.css.map",
+    "main.e2610594.js.map": "/gorrila/static/js/main.e2610594.js.map"
   },
   "entrypoints": [
-    "static/css/main.73234a7d.css",
-    "static/js/main.f06c4477.js"
+    "static/css/main.b7104b4c.css",
+    "static/js/main.e2610594.js"
   ]
 }
