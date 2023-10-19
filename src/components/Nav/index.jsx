@@ -11,9 +11,11 @@ const Nav = () => {
   const toggle = () =>{
     console.log("clicked");
     setToggleOn((prevToggle)=> !prevToggle)
-    toggleOn ? document.body.style.overflow='visible' : document.body.style.overflow='hidden'
-  }
 
+    if(window.innerWidth < 600){
+      toggleOn ? document.body.style.overflow='visible' : document.body.style.overflow='hidden'
+    }
+  }
 
   return (
     <NavContainer show={toggleOn}>
