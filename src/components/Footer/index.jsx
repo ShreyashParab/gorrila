@@ -48,7 +48,7 @@ const Footer = () => {
                 </JoinDiscord>
             </FooterRight>
         </FooterMain>
-        <Copyright>@copyright. play 2022</Copyright>
+        <Copyright>@copyright. play 2023</Copyright>
     </FooterWrapper>
   )
 }

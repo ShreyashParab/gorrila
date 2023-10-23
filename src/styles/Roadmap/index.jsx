@@ -86,7 +86,6 @@ export const QuaterOneTwentyTwoLeft = styled.div`
 `
 
 export const QuaterOneTwentyTwoRight = styled.img`
-    width: 400px;
     height: 300px;
     border-radius: 900px;
     background: radial-gradient(50.76% 50.76% at 50% 50%,rgba(0, 56, 255, 0.24) 40%, rgba(0, 133, 255, 0.00) 100%);
@@ -132,12 +131,12 @@ export const Header = styled.h1`
 
 export const Subheader = styled.p`
     margin-top: 5px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.2px;
 
     @media (max-width:700px){
-        font-size: 12px;
+        font-size: 13px;
     }
 `
 
@@ -169,14 +168,15 @@ font-weight: 500;
 
 export const Description = styled.p`
     color: rgba(255, 255, 255, 0.39);
-    font-size: 12px;
+    margin-top: 2px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     width: 80%;
     /* line-height: 18px; */
 
     @media (max-width:900px){
-        width: 60%;
+        font-size: 13px;
     }
 
     @media (max-width:700px){
@@ -221,13 +221,17 @@ export const Container = styled.div`
 
 export const DescriptionTwo = styled.p`
     color: rgba(255, 255, 255, 0.39);
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     width: 55%;
     float: right;
     margin-top: 5px;
     /* text-align: right; */
+
+    @media (max-width:900px){
+        font-size: 13px;
+    }
 
     @media (max-width:500px){
         width: 100%;
@@ -332,12 +336,16 @@ export const BlackBoxImgLeft = styled.img`
 
 export const DescriptionThree = styled.p`
     color: rgba(255, 255, 255, 0.39);
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     width: 55%;
     /* float: right; */
     margin-top: 5px;
+
+    @media (max-width:900px){
+        font-size: 13px;
+    }
 
     @media (max-width:500px){
         width: 100%;

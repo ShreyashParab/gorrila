@@ -50,7 +50,8 @@ export const Navlinks = styled.div`
         @media (max-width:600px){
             flex-direction: column;
             align-items: center;
-            gap: 120px;
+            justify-content: center;
+            gap: 80px;
         }
     }
 
@@ -84,7 +85,8 @@ export const SocialMedia = styled.div`
         width: 100%;
         border: none;
         border-radius: 0%;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 30px;
         display: ${(props)=>(props.show ? "flex":"none")};
     }
 `

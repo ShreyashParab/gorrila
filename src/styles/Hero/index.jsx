@@ -12,6 +12,7 @@ export const HeroWrapper = styled.div`
     margin: 0 auto;
 
    @media (max-width:930px){
+    margin-top: 10px;
     flex-direction: column;
     width: 100%;
     height: 100%;
@@ -64,12 +65,16 @@ export const Searchbox = styled.div`
     height: 50px;
     margin-top: 20px;
 
+    @media (max-width:1030px) and (min-width:1000px){
+        width: 70%;
+    }
+
     @media (max-width:930px){
         margin: 20px auto;
     }
 
     @media (max-width:500px){
-        margin: 20px auto;
+        margin: 20px auto 0 auto;
         width: 90%;
     }
 `
@@ -154,7 +159,8 @@ export const ImageContainer = styled.div`
 `
 export const CryptoImg = styled.img`
     /* display: grid; */
-    width: 150px;
+    /* width: 150px;*/
+    width: 175px;
     height: 250px;
     grid-row-start:4;
     grid-row-end:6;
@@ -163,6 +169,7 @@ export const CryptoImg = styled.img`
     /* place-self: center; */
 
     @media(max-width: 500px){
+        width: 150px;
         height: 200px;
         grid-row-start:3;
         grid-row-end:6;
@@ -324,7 +331,7 @@ export const Info4 = styled.div`
 `
 
 export const Para = styled.p`
-    font-size: 12px;
+    font-size: 13.8px;
     font-style: normal;
     font-weight: 500;
     line-height: 18px;
