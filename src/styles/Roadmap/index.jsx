@@ -508,6 +508,7 @@ export const InputFeedback = styled.input`
     border-right:none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.21);
     outline: none;
+    color: white;
 
     &::placeholder{
         color: rgba(255, 255, 255, 0.39);

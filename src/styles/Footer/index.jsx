@@ -52,6 +52,11 @@ export const Copyright = styled.div`
     justify-content: center;
     padding: 8px;
     font-size: 14px;
+    margin-top: 10px;
+
+    @media (max-width:500px){
+        margin-top: 15px;
+    }
 `
 
 export const Links = styled.div`
@@ -106,8 +111,11 @@ export const JoinDiscord = styled.div`
     cursor: pointer;
 
     @media (max-width:500px){
-        position: static;
-        text-align: center;
+        gap: 3px;
+        width: 70px;
+        height: 70px;
+        bottom: 5%;
+        padding: 5px;
     }
 `
 
