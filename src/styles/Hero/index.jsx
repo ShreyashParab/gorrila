@@ -44,9 +44,13 @@ export const SubHeader = styled.p`
     color: var(--light-text, #FFF);
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
     letter-spacing: 0.2px;
-    width: 90%;
+    width: 80%;
+
+    @media (max-width:1025px){
+        width: 100%;
+    }
 
     @media (max-width:930px){
         font-size: 16px;

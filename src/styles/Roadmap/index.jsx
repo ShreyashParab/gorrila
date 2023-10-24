@@ -1,16 +1,34 @@
 import styled from "styled-components";
 
-export const Line = styled.hr`
+export const Line = styled.div`
     margin-top: 40px;
-    width: 12.5%;
-    border:1px solid rgba(255,255,255,0.12);
+    width: 12.6%;
+    height: 40px;
+    border: 2px solid rgba(255,255,255,0.12);
+    border-color: rgba(255,255,255,0.12) rgba(255,255,255,0.12) transparent transparent;
+    /* display: flex;
+    flex-wrap: wrap; */
+    border-top-right-radius: 30px;
+    /* border-bottom-right-radius: 1px; */
+
+    @media (max-width:1025px){
+        width: 12.65%;
+    }
+
+    @media (max-width:770px){
+        width: 12.7%;
+    }
 
     @media (max-width:600px){
         width: 15.3%;
     }
 
     @media (max-width:500px){
-        width: 21.5%;
+        width: 21.50%;
+    }
+
+    @media (max-width:376px){
+        width: 21.4%;
     }
 `
 
@@ -97,7 +115,7 @@ export const QuaterOneTwentyTwoRight = styled.img`
 
     @media (max-width:600px){
         width: 200px;
-        width: 200px;
+        height: 200px;
     }
 `
 
@@ -172,11 +190,17 @@ export const Description = styled.p`
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    width: 80%;
+    width: 45%;
     /* line-height: 18px; */
+
+    @media (max-width:1025px){
+        /* font-size: 13px; */
+        width: 90%;
+    }
 
     @media (max-width:900px){
         font-size: 13px;
+        width: 90%;
     }
 
     @media (max-width:700px){
