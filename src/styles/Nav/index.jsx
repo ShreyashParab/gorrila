@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const NavContainer = styled.div`
     /* z-index: 3; */
-    padding: 15px;
+    padding: 15px 30px;
     color:white;
     display:flex;
     justify-content:space-between;
@@ -10,6 +10,10 @@ export const NavContainer = styled.div`
     /* position: sticky;
     top: 0; */
     /* background-color: black; */
+
+    @media (max-width:900px){
+        padding: 15px;
+    }
 
 
     @media (max-width:600px){
@@ -29,7 +33,13 @@ export const Logo =styled.div`
 
 export const Icon = styled.div`
     img{
-        width:50px;
+        width:65px;
+    }
+
+    @media (max-width:900px){
+        img{
+            width: 50px;
+        }
     }
 `
 
@@ -51,7 +61,7 @@ export const Navlinks = styled.div`
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 80px;
+            gap: 60px;
         }
     }
 
@@ -60,6 +70,7 @@ export const Navlinks = styled.div`
     }
 
     ul li a{
+        font-size: 16px;
         text-decoration: none;
         color: white;
     }

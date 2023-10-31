@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Outfits',sans-serif;
+  font-family: 'Outfit',sans-serif;
 }
 
 html{
@@ -16,10 +16,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-    background-image: url('./assets/Rectangle.png');
+    /* background-image: url('./assets/Rectangle.png'); */
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    background: linear-gradient(0deg, rgba(48, 165, 202, 0.58) 0%, rgba(48, 165, 202, 0.58) 100%), url('./assets/Rectangle2.png'), lightgray 50% / cover no-repeat;
+  background-blend-mode: overlay, normal;
 }
 
 

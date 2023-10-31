@@ -30,12 +30,27 @@ export const Content = styled.div`
 
 export const Header = styled.h1`
     color: var(--light-text, #FFF);
-    font-size: 58px;
+    /* font-size: 58px; */
+    font-size: 65px;
     font-weight: 500;
     letter-spacing: 0.2px;
 
+    @media (max-width:1025px){
+        font-size: 50px;
+    }
+
     @media (max-width:930px){
-        font-size: 30px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    @media (max-width:400px){
+        font-size: 38px;
+        text-align: center;
+    }
+
+    @media (max-width:350px){
+        font-size: 32px;
         text-align: center;
     }
 `
@@ -49,11 +64,19 @@ export const SubHeader = styled.p`
     width: 80%;
 
     @media (max-width:1025px){
-        width: 100%;
+        width: 95%;
+        font-size: 16px;
     }
 
     @media (max-width:930px){
         font-size: 16px;
+        text-align: center;
+        line-height: 23px;
+        width: 100%;
+    }
+
+    @media (max-width:400px){
+        font-size: 14px;
         text-align: center;
         line-height: 23px;
         width: 100%;
@@ -65,9 +88,9 @@ export const Searchbox = styled.div`
     border-radius: 89px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     /* width: 400px; */
-    width: 50%;
+    width: 60%;
     height: 50px;
-    margin-top: 20px;
+    margin-top: 25px;
 
     @media (max-width:1030px) and (min-width:1000px){
         width: 70%;
@@ -75,6 +98,7 @@ export const Searchbox = styled.div`
 
     @media (max-width:930px){
         margin: 20px auto;
+        width: 50%;
     }
 
     @media (max-width:500px){
@@ -194,10 +218,11 @@ export const Info1 = styled.div`
     text-align: center;
     border-radius: 90px;
     border: 1px solid rgba(255, 255, 255, 0.06);
-    grid-row-start: 3;
+    grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 3;
+    place-self: center;
 
     @media (max-width:500px){
         width: 150px;
@@ -273,11 +298,11 @@ export const Info3 = styled.div`
     grid-row-end: 5;
     grid-column-start: 1;
     grid-column-end: 3;
-    justify-self: center;
-    align-self: end;
+    place-self: end;
 
     @media (max-width:500px){
         width: 150px;
+        place-self: start end;
     }
 
     @media(max-width:400px){
@@ -310,26 +335,15 @@ export const Info4 = styled.div`
     justify-self: end;
 
     @media (max-width:500px){
+        grid-row-start:3;
+        grid-row-end: 5;
         width: 150px;
+        place-self: center;
     }   
 
-    @media(max-width:400px){
+     @media(max-width:400px){
         width: 130px;
         height: 60px;
-        grid-row-start:3;
-        grid-row-end: 4;
-        grid-column-start: 4;
-        grid-column-end: 6;
-        align-self: end;
-        justify-self: start;
-    }
-
-    @media (max-width:350px){
-        grid-row-start:3;
-        grid-row-end: 4;
-        grid-column-start: 4;
-        grid-column-end: 6;
-        justify-self: end;
     }
 
 `
@@ -340,8 +354,12 @@ export const Para = styled.p`
     font-weight: 500;
     line-height: 18px;
 
-    @media (max-width:400px){
+    @media (max-width:426px){
         font-size: 10px;
+    }
+
+    @media (max-width:400px){
+        font-size: 8.9px;
     }
 `
 

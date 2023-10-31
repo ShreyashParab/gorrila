@@ -16,14 +16,14 @@ const Roadmap = () => {
             <QuaterOneTwentyTwoLeft>
                 <HeadSection>
                     <Header>Road Map</Header>
-                    <Subheader>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Subheader>
+                    <Subheader>Lorem ipsum dolor sit amet consectetur adipiscing elit.</Subheader>
                 </HeadSection>
                 <MainSection>
                     <BlueTimestamp src={BlueTimestampImg} alt="BlueTimestampImg"></BlueTimestamp>
                     <Year>2022</Year>
                     <Quater>Q1</Quater>
                     <Description>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id purus augue. Lorem ipsum dolor
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit Suspendisse id purus augue Lorem ipsum dolor
                     </Description>
                 </MainSection>
             </QuaterOneTwentyTwoLeft>
@@ -36,7 +36,7 @@ const Roadmap = () => {
                 <Year>2022</Year>
                 <Quater>Q2</Quater>
                 <DescriptionTwo>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id purus augue. Lorem ipsum dolor
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit Suspendisse id purus augue Lorem ipsum dolor
                 </DescriptionTwo>
             </Container>
         </QuarterTwoTwentyTwo>
@@ -46,7 +46,7 @@ const Roadmap = () => {
                 <Year>2022</Year>
                 <Quater>Q3</Quater>
                 <DescriptionThree>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id purus augue. Lorem ipsum dolor
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit Suspendisse id purus augue Lorem ipsum dolor
                 </DescriptionThree>
             </ContainerTwo>
         </QuaterThreeTwentyTwo>
@@ -56,7 +56,7 @@ const Roadmap = () => {
                 <Year>2022</Year>
                 <Quater>Q4</Quater>
                 <DescriptionTwo>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id purus augue. Lorem ipsum dolor
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit Suspendisse id purus augue Lorem ipsum dolor
                 </DescriptionTwo>
             </Container>
         </QuaterFourTwentyTwo>
@@ -66,7 +66,7 @@ const Roadmap = () => {
                 <Year>2023</Year>
                 <Quater>Q1</Quater>
                 <DescriptionThree>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id purus augue. Lorem ipsum dolor
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit Suspendisse id purus augue Lorem ipsum dolor
                 </DescriptionThree>
             </ContainerTwo>
         </QuaterOneTwentyThree>
@@ -76,14 +76,14 @@ const Roadmap = () => {
                 <Year>2023</Year>
                 <Quater>Q2</Quater>
                 <DescriptionTwo>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id purus augue. Lorem ipsum dolor
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit Suspendisse id purus augue Lorem ipsum dolor
                 </DescriptionTwo>
             </Container>
         </QuaterTwoTwentyThree>
         <ContactUs id="contact">
             <ContactTitleContainer>
                 <TitleHeader>Contact Us</TitleHeader>
-                <TitleDesc>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</TitleDesc>
+                <TitleDesc>Lorem ipsum dolor sit amet consectetur adipiscing elit</TitleDesc>
             </ContactTitleContainer>
             <ContactMainContainer>
                 <MainContainerLeft>

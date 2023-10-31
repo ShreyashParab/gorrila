@@ -30,16 +30,28 @@ export const FooterMain = styled.div`
 `
 
 export const FooterLeft = styled.div`
-    font-size: 13px;
+    font-size: 16px;
     display: flex;
     gap: 50px;
+
+    @media (max-width:768px){
+        font-size: 14px;
+    }
+
+    @media (max-width:500px){
+        font-size: 13px;
+    }
 `
 
 export const FooterRight = styled.div`
-    font-size: 13px;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+
+    @media (max-width:768px){
+        font-size: 13px;
+    }
 
     @media (max-width:500px){
         align-items: center;

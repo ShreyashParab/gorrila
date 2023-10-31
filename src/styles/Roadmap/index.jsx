@@ -16,7 +16,7 @@ export const Line = styled.div`
     }
 
     @media (max-width:770px){
-        width: 12.7%;
+        width: 15.2%;
     }
 
     @media (max-width:600px){
@@ -30,6 +30,10 @@ export const Line = styled.div`
     @media (max-width:376px){
         width: 21.4%;
     }
+
+    @media (max-width:376px){
+        width: 22.9%;
+    }
 `
 
 export const RoadmapWrapper = styled.div`
@@ -38,12 +42,20 @@ export const RoadmapWrapper = styled.div`
     width: 75%;
     margin: 0 auto;
 
+    @media (max-width:770px){
+        width: 70%;
+    }
+    
     @media (max-width:600px){
         width: 70%;
     }
 
     @media (max-width:500px){
         width: 58%;
+    }
+
+    @media (max-width:350px){
+        width: 55%;
     }
 `
 
@@ -54,9 +66,10 @@ export const QuarterOneTwentyTwo = styled.div`
     border-bottom: 1px solid rgba(255,255,255,0.12);
     border-bottom-left-radius: 30px;
     position: relative; 
+    padding-bottom: 2.5rem;
 
     @media (max-width:900px){
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
     }
 
     @media (max-width:600px){
@@ -66,41 +79,37 @@ export const QuarterOneTwentyTwo = styled.div`
 `
 
 export const BlueTimestamp = styled.img`
-    width: 150px;
+    width: 205px;
     position: absolute;
     /* left: -6%; */
-    left: -70px;
+    left: -93px;
 
     @media (max-width:770px){
-        left: -60px;
-        width: 125px; 
+        left: -80px;
+        width: 170px; 
     }
 
-    @media (max-width:600px){
-        width: 110px;
-        left: -50px;
-    }
 
     @media (max-width:500px){
-        width: 100px;
-        left: -48px;
+        width: 140px;
+        left: -65px;
+    }
+
+    @media (max-width:350px){
+        width: 110px;
+        left: -50px;
     }
 `
 
 export const QuaterOneTwentyTwoLeft = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    /* gap: 30px; */
-    /* padding: 20px; */
+    gap: 50px;
 
     @media (max-width:600px){
         gap: 30px;
     }
 
-    @media (max-width:600px){
-        gap: 20px;
-    }
 `
 
 export const QuaterOneTwentyTwoRight = styled.img`
@@ -124,37 +133,68 @@ export const HeadSection = styled.div`
 `
 
 export const MainSection = styled.div`
-    padding-left: 4rem;
+    padding-left: 6rem;
 
+    @media (max-width:1025px){
+        padding-left: 4.5rem;
+    }
+    
     @media (max-width:600px){
         padding-left: 3.5rem;
         padding-bottom: 1rem;
     }
 
     @media (max-width:500px){
-        padding-left: 2.6rem;
+        padding-left: 3.5rem;
+        padding-bottom: 0;
+    }
+
+    @media (max-width:350px){
+        padding-left: 3rem;
         padding-bottom: 0;
     }
 `
 
 export const Header = styled.h1`
-    font-size: 38px;
+    font-size: 65px;
     letter-spacing: 0.2px;
     font-weight: 500;
 
-    @media (max-width:700px){
-        font-size: 32px;
+    @media (max-width:1025px){
+        font-size: 50px;
     }
+
+    @media (max-width:770px){
+        font-size: 40px;
+    }
+
+    @media (max-width:400px){
+        font-size: 38px;
+    }
+
+    @media (max-width:350px){
+        font-size: 32px;
+        white-space: nowrap;
+    }
+
 `
 
 export const Subheader = styled.p`
-    margin-top: 5px;
-    font-size: 14px;
+    margin-top: 8px;
+    font-size: 18px;
     font-weight: 400;
     letter-spacing: 0.2px;
 
+    @media (max-width:1025px){
+        font-size: 16px;
+    }
+
+    @media (max-width:768px){
+        font-size: 14px;
+    }
+
     @media (max-width:700px){
-        font-size: 13px;
+        font-size: 12px;
     }
 `
 
@@ -162,9 +202,17 @@ export const Subheader = styled.p`
 export const Year = styled.p`
 /* color: #FFF; */
 font-family: Outfit;
-font-size: 35px;
+font-size: 55px;
 font-style: normal;
 font-weight: 100;
+
+@media (max-width:1025px){
+    font-size: 45px;
+}
+
+@media (max-width:770px){
+    font-size: 32px;
+}
 
 @media (max-width:500px){
     font-size: 28px;
@@ -174,9 +222,13 @@ font-weight: 100;
 export const Quater = styled.p`
 color: #15C4C6;
 font-family: Outfit;
-font-size: 22px;
+font-size: 25px;
 font-style: normal;
 font-weight: 500;
+
+@media (max-width:770px){
+    font-size: 22px;
+}
 
 @media (max-width:500px){
     font-size: 18px;
@@ -186,21 +238,21 @@ font-weight: 500;
 
 export const Description = styled.p`
     color: rgba(255, 255, 255, 0.39);
-    margin-top: 2px;
-    font-size: 14px;
+    margin-top: 8px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     width: 45%;
-    /* line-height: 18px; */
+    line-height: 23px;
 
     @media (max-width:1025px){
-        /* font-size: 13px; */
+        font-size: 15px;
         width: 90%;
     }
 
     @media (max-width:900px){
         font-size: 13px;
-        width: 90%;
+        width: 100%;
     }
 
     @media (max-width:700px){
@@ -209,6 +261,7 @@ export const Description = styled.p`
 
     @media (max-width:600px){
         width: 100%;
+        line-height:20px;
     }
 `
 
@@ -228,10 +281,10 @@ export const QuarterTwoTwentyTwo = styled.div`
 `
 
 export const Container = styled.div`
-    padding-right: 5rem;
+    padding-right: 6.5rem;
 
     @media (max-width:800px){
-        padding-right: 4rem;
+        padding-right: 5.5rem;
     }
 
     @media (max-width:600px){
@@ -239,40 +292,52 @@ export const Container = styled.div`
     }
 
     @media (max-width:500px){
-        padding-right: 2.9rem;
+        padding-right: 3.8rem;
+    }
+
+    @media (max-width:350px){
+        padding-right: 3.4rem;
     }
 `
 
 export const DescriptionTwo = styled.p`
+    margin-top: 8px;
     color: rgba(255, 255, 255, 0.39);
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     width: 55%;
     float: right;
-    margin-top: 5px;
+    line-height: 23px;
+    /* margin-top: 5px; */
     /* text-align: right; */
+
+    @media (max-width:1025px){
+        font-size: 15px;
+    }
 
     @media (max-width:900px){
         font-size: 13px;
+        width: 60%;
     }
 
     @media (max-width:500px){
         width: 100%;
+        line-height:20px;
     }
 `
 
 export const BlackBoxImgRight = styled.img`
-    width: 150px;
+    width: 200px;
     position: absolute;
     /* top: 5%; */
     top: 10px;
-    right: -75px;
+    right: -100px;
 
     @media (max-width:900px){
-        width: 125px;
+        width: 170px;
         /* right: -9.5%; */
-        right: -63px;
+        right: -85px;
     }
 
     @media (max-width:600px){
@@ -282,19 +347,19 @@ export const BlackBoxImgRight = styled.img`
     }
 
     @media (max-width:500px){
-        width: 90px;
-        right: -46px;
+        width: 120px;
+        right: -60px;
     }
 
-    /* @media (max-width:350px){
-        width: 90px;
-        right: -45px;
-    } */
+    @media (max-width:350px){
+        width: 100px;
+        right: -50px;
+    }
 `
 
 export const QuaterThreeTwentyTwo = styled.div`
     width: 100%;
-    padding: 30px;
+    padding: 30px 0 30px 30px;
     border-top: 1px solid rgba(255,255,255,0.12);
     border-left: 2px solid rgba(255,255,255,0.12);
     border-bottom: 1px solid rgba(255,255,255,0.12);
@@ -306,14 +371,14 @@ export const QuaterThreeTwentyTwo = styled.div`
 `
 
 export const ContainerTwo = styled.div`
-    padding-left: 3rem;
+    padding-left: 4.8rem;
 
     @media (max-width:1030px){
         padding-left: 4.5rem;
     }
 
     @media (max-width:900px){
-        padding-left: 2.5rem;
+        padding-left: 4rem;
     }
 
     @media (max-width:600px){
@@ -321,22 +386,25 @@ export const ContainerTwo = styled.div`
     }
 
     @media (max-width:500px){
-        padding-left: 1.5rem;
+        padding-left: 2rem;
     }
 
+    @media (max-width:350px){
+        padding-left: 1.6rem;
+    }
 `
 
 export const BlackBoxImgLeft = styled.img`
-    width: 150px;
+    width: 200px;
     position: absolute;
-    left: -76px;
+    left: -100px;
     top: 12px;
     /* left: -6.5%;   */
     /* top: 5%; */
 
     @media (max-width:900px){
-        width: 125px;
-        left: -60px;
+        width: 170px;
+        left: -85px;
         top: 20px;
     }
 
@@ -347,8 +415,13 @@ export const BlackBoxImgLeft = styled.img`
     }
 
     @media (max-width:500px){
-        width: 90px;
-        left: -46px;
+        width: 120px;
+        left: -60px;
+    }
+
+    @media (max-width:350px){
+        width: 100px;
+        left: -50px;
     }
 
     /* @media (max-width:350px){
@@ -360,19 +433,26 @@ export const BlackBoxImgLeft = styled.img`
 
 export const DescriptionThree = styled.p`
     color: rgba(255, 255, 255, 0.39);
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     width: 55%;
     /* float: right; */
-    margin-top: 5px;
+    margin-top: 8px;
+    line-height: 23px;
+
+    @media (max-width:1025px){
+        font-size: 15px;
+    }
 
     @media (max-width:900px){
         font-size: 13px;
+        /* width: 60%; */
     }
 
     @media (max-width:500px){
         width: 100%;
+        line-height:20px;
     }
 `
 
@@ -393,7 +473,7 @@ export const QuaterFourTwentyTwo = styled.div`
 
 export const QuaterOneTwentyThree = styled.div`
     width: 100%;
-    padding: 30px;
+    padding: 30px 0 30px 30px;
     border-top: 1px solid rgba(255,255,255,0.12);
     border-left: 2px solid rgba(255,255,255,0.12);
     border-bottom: 1px solid rgba(255,255,255,0.12);
@@ -442,22 +522,42 @@ export const ContactTitleContainer = styled.div`
     
 `
 export const TitleHeader = styled.h1`
-    font-size: 35px;
+    font-size: 65px;
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0.2px;
 
+    @media (max-width:1025px){
+        font-size: 50px;
+    }
+
     @media (max-width:600px){
-        font-size: 28px;
+        font-size: 40px;
+        white-space: nowrap;
+    }
+
+    @media (max-width:400px){
+        font-size: 38px;
+       
+    }
+
+
+    @media (max-width:350px){
+        font-size: 32px;
+        /* white-space: nowrap; */
     }
 `
 
 export const TitleDesc = styled.p`
-    font-size: 11px;
+    font-size: 18px;
     margin-top: 5px;
 
+    @media (max-width:1025px){
+        font-size: 16px;
+    }
+    
     @media (max-width:600px){
-        font-size: 10px;
+        font-size: 12px;
         width: 100%;
     }
 `
@@ -483,10 +583,22 @@ export const MainContainerLeft = styled.div`
 `
 
 export const Para = styled.p`
-    font-size: 16px;
+    font-size: 22px;
+
+    @media (max-width:1025px){
+        font-size: 20px;
+    }
+    
+    @media (max-width:1025px){
+        font-size: 16px;
+    }
 
     @media (max-width:600px){
-        font-size: 14px;
+        font-size: 15px;
+    }
+
+    @media (max-width:350px){
+        font-size: 13px;
     }
 `
 
@@ -501,7 +613,7 @@ export const MainContainerRight = styled.div`
 `
 
 export const InputFeedback = styled.input`
-    width: 350px;
+    width: 420px;
     background: none;
     border-top: none;
     border-left:none;
@@ -515,11 +627,19 @@ export const InputFeedback = styled.input`
         font-style: normal;
         font-weight: 400;
         line-height: 25px;
-        font-size: 12px;
+        font-size: 16px;
+
+        @media (max-width:900px){
+            font-size: 13px;
+        }
+    }
+
+    @media (max-width:1025px){
+        width: 350px;
     }
 
     @media (max-width:900px){
-        width:280px;
+        width:220px;
     }
 
     @media (max-width:600px){
