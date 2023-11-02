@@ -43,7 +43,7 @@ const Footer = () => {
                     <BsTwitter style={{fontSize:'20px'}}></BsTwitter>
                 </Icons>
                 <JoinDiscord>
-                    <BsDiscord style={{fontSize:'20px'}}></BsDiscord>
+                    <BsDiscord style={{fontSize:'25px'}}></BsDiscord>
                     <TextDiv>Join Discord</TextDiv>
                 </JoinDiscord>
             </FooterRight>

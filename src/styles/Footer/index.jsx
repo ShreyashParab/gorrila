@@ -40,6 +40,7 @@ export const FooterLeft = styled.div`
 
     @media (max-width:500px){
         font-size: 13px;
+        gap: 40px;
     }
 `
 
@@ -124,8 +125,8 @@ export const JoinDiscord = styled.div`
 
     @media (max-width:500px){
         gap: 3px;
-        width: 70px;
-        height: 70px;
+        width: 55px;
+        height: 55px;
         bottom: 5%;
         padding: 5px;
     }
@@ -137,4 +138,8 @@ export const TextDiv = styled.p`
     font-style: normal;
     font-weight: 700;
     text-align: center;
+
+    @media (max-width:500px){
+        display: none;
+    }
 `

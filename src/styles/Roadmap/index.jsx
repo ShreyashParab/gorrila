@@ -31,7 +31,7 @@ export const Line = styled.div`
         width: 21.4%;
     }
 
-    @media (max-width:376px){
+    @media (max-width:350px){
         width: 22.9%;
     }
 `
@@ -196,6 +196,11 @@ export const Subheader = styled.p`
     @media (max-width:700px){
         font-size: 12px;
     }
+
+    @media (max-width:700px){
+        font-size: 12px;
+        text-align: justify;
+    }
 `
 
 
@@ -263,14 +268,20 @@ export const Description = styled.p`
         width: 100%;
         line-height:20px;
     }
+
+    @media (max-width:400px){
+        width: 100%;
+        line-height:17px;
+        text-align: justify;
+    }
 `
 
 export const QuarterTwoTwentyTwo = styled.div`
     padding: 30px 0px;
    display: flex;
    width: 100%;
-   justify-content: flex-end;
    text-align: right;
+   justify-content: right;
    border-top: 1px solid rgba(255,255,255,0.12);
    border-right: 2px solid rgba(255,255,255,0.12);
    border-bottom: 1px solid rgba(255,255,255,0.12);
@@ -323,7 +334,14 @@ export const DescriptionTwo = styled.p`
 
     @media (max-width:500px){
         width: 100%;
-        line-height:20px;
+        line-height:17px;
+        /* text-align: justify; */
+    }
+
+    @media (max-width:500px){
+        width: 100%;
+        line-height:17px;
+        text-align: justify;
     }
 `
 
@@ -454,6 +472,12 @@ export const DescriptionThree = styled.p`
         width: 100%;
         line-height:20px;
     }
+
+    @media (max-width:400px){
+        width: 100%;
+        line-height:17px;
+        text-align: justify;
+    }
 `
 
 export const QuaterFourTwentyTwo = styled.div`
@@ -559,6 +583,12 @@ export const TitleDesc = styled.p`
     @media (max-width:600px){
         font-size: 12px;
         width: 100%;
+    }
+
+    @media (max-width:400px){
+        font-size: 12px;
+        width: 100%;
+        text-align: justify;
     }
 `
 

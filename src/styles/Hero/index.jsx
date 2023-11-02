@@ -44,15 +44,11 @@ export const Header = styled.h1`
         text-align: center;
     }
 
-    @media (max-width:400px){
-        font-size: 38px;
-        text-align: center;
-    }
 
     @media (max-width:350px){
-        font-size: 32px;
+        font-size: 38px;
         text-align: center;
-    }
+    } 
 `
 export const SubHeader = styled.p`
     margin-top: 20px;
@@ -81,6 +77,10 @@ export const SubHeader = styled.p`
         line-height: 23px;
         width: 100%;
     }
+
+    @media (max-width:350px){
+        font-size: 13px;
+    }
 `
 export const Searchbox = styled.div`
     display: flex;
@@ -105,6 +105,11 @@ export const Searchbox = styled.div`
         margin: 20px auto 0 auto;
         width: 90%;
     }
+
+    @media (max-width:500px){
+        margin: 20px auto 0 auto;
+        width: 100%;
+    }
 `
 
 export const Input = styled.input`
@@ -122,6 +127,7 @@ color: white;
     font-weight:400;
     font-size:14px;
 }
+
 `
 
 export const ButtonWrapper = styled.div`
@@ -135,6 +141,10 @@ export const ButtonWrapper = styled.div`
     border-top-right-radius:89px;
     border-bottom-right-radius:89px;
     padding: 1px 1px 1px 10px;
+
+    @media(max-width:350px){
+        width: 120px;
+    }
 `
 export const SelectButton = styled.p`
     display: flex;
@@ -215,7 +225,7 @@ export const Info1 = styled.div`
     height: 60px;
     display: flex;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     border-radius: 90px;
     border: 1px solid rgba(255, 255, 255, 0.06);
     grid-row-start: 2;
@@ -244,11 +254,11 @@ export const Info2 = styled.div`
     padding: 10px;
     fill: rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(40px);
-    width: 190px;
+    width: 180px;
     height: 60px;
     display: flex;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     border-radius: 90px;
     border: 1px solid rgba(255, 255, 255, 0.06);
     grid-row-start: 2;
@@ -258,11 +268,11 @@ export const Info2 = styled.div`
     justify-self: end;
 
     @media (max-width:500px){
-        width: 150px;
+        width: 140px;
     }
 
     @media (max-width:400px){
-        width: 130px;
+        width: 120px;
         height: 60px;
         grid-row-start: 2;
         grid-row-end:3;
@@ -291,7 +301,7 @@ export const Info3 = styled.div`
     height: 60px;
     display: flex;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     border-radius: 90px;
     border: 1px solid rgba(255, 255, 255, 0.06);
     grid-row-start: 4;
@@ -320,11 +330,11 @@ export const Info4 = styled.div`
     padding: 10px;
     fill: rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(40px);
-    width: 190px;
+    width: 180px;
     height: 60px;
     display: flex;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     border-radius: 90px;
     border: 1px solid rgba(255, 255, 255, 0.06);
     grid-row-start:4;
@@ -342,7 +352,7 @@ export const Info4 = styled.div`
     }   
 
      @media(max-width:400px){
-        width: 130px;
+        width: 125px;
         height: 60px;
     }
 
