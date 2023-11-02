@@ -32,7 +32,7 @@ export const Line = styled.div`
     }
 
     @media (max-width:350px){
-        width: 22.9%;
+        width: 23%;
     }
 `
 
