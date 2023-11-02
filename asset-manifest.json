@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/gorrila/static/css/main.b7104b4c.css",
-    "main.js": "/gorrila/static/js/main.a6e17260.js",
+    "main.css": "/gorrila/static/css/main.04e50fdb.css",
+    "main.js": "/gorrila/static/js/main.116a7c79.js",
     "static/media/gorrila.png": "/gorrila/static/media/gorrila.1abaf6e190cc1e81e8dd.png",
     "static/media/Blackbox.png": "/gorrila/static/media/Blackbox.19aba92ef3b433764d66.png",
-    "static/media/Rectangle.png": "/gorrila/static/media/Rectangle.b01b39269192d4343ecd.png",
+    "static/media/Rectangle2.png": "/gorrila/static/media/Rectangle2.e35a66414b40fd23e0a1.png",
     "static/media/Crypto.png": "/gorrila/static/media/Crypto.396c6ccbc2bfffcf05a1.png",
     "static/media/BlueTimestamp.png": "/gorrila/static/media/BlueTimestamp.84edf4bd5b632b59fada.png",
     "static/media/Infinity.png": "/gorrila/static/media/Infinity.1fd2cedd45bcba5d1d6d.png",
     "index.html": "/gorrila/index.html",
-    "main.b7104b4c.css.map": "/gorrila/static/css/main.b7104b4c.css.map",
-    "main.a6e17260.js.map": "/gorrila/static/js/main.a6e17260.js.map"
+    "main.04e50fdb.css.map": "/gorrila/static/css/main.04e50fdb.css.map",
+    "main.116a7c79.js.map": "/gorrila/static/js/main.116a7c79.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7104b4c.css",
-    "static/js/main.a6e17260.js"
+    "static/css/main.04e50fdb.css",
+    "static/js/main.116a7c79.js"
   ]
 }
