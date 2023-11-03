@@ -128,6 +128,15 @@ color: white;
     font-size:14px;
 }
 
+
+@media(max-width:350px){
+    padding-left: 10px;
+
+    ::placeholder{
+    /* font-weight:400; */
+        font-size:22px;
+    }
+}
 `
 
 export const ButtonWrapper = styled.div`
@@ -143,7 +152,8 @@ export const ButtonWrapper = styled.div`
     padding: 1px 1px 1px 10px;
 
     @media(max-width:350px){
-        width: 120px;
+        width: 125px;
+        gap: 7px;
     }
 `
 export const SelectButton = styled.p`

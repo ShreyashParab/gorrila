@@ -197,7 +197,7 @@ export const Subheader = styled.p`
         font-size: 12px;
     }
 
-    @media (max-width:700px){
+    @media (max-width:400px){
         font-size: 12px;
         text-align: justify;
     }
@@ -269,10 +269,14 @@ export const Description = styled.p`
         line-height:20px;
     }
 
+    @media (max-width:500px){
+        width: 100%;
+        line-height:17px;
+    }
+
     @media (max-width:400px){
         width: 100%;
         line-height:17px;
-        text-align: justify;
     }
 `
 
@@ -338,10 +342,9 @@ export const DescriptionTwo = styled.p`
         /* text-align: justify; */
     }
 
-    @media (max-width:500px){
+    @media (max-width:400px){
         width: 100%;
         line-height:17px;
-        text-align: justify;
     }
 `
 
@@ -470,13 +473,12 @@ export const DescriptionThree = styled.p`
 
     @media (max-width:500px){
         width: 100%;
-        line-height:20px;
+        line-height:17px;
     }
 
     @media (max-width:400px){
         width: 100%;
         line-height:17px;
-        text-align: justify;
     }
 `
 
